@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(255, 254, 231);
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background: transparent url('https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80')
+    no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+.header .inner-header {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 254, 231);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .5;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+}
